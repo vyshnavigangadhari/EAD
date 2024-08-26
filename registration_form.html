@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>REGISTRATION FORM</title>
+        <style>
+            body {
+                background-color: #f0f0f0; 
+            }
+            #name {
+                color: blueviolet;
+                background-color: #ffffff; 
+                padding: 20px;
+                border-radius: 10px;
+                max-width: 500px;
+                margin: auto;
+            }
+            h1 {
+                color: darkgreen;
+                text-align: center;
+            }
+            label {
+                font-weight: bold;
+            }
+            input[type="text"], input[type="number"] {
+                width: 100%;
+                padding: 8px;
+                margin: 8px 0;
+                box-sizing: border-box;
+            }
+            .registerbtn {
+                background-color: darkgreen;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+                border-radius: 5px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>REGISTRATION FORM</h1>
+        <div id="name">
+            <form>
+                <label for="email">Email-id:</label><br>
+                <input type="text" id="email" placeholder="Enter Email" name="email" value="" required><br>
+                
+                <label for="firstname">First Name:</label><br>
+                <input type="text" id="firstname" placeholder="Enter First Name" name="firstname" value="" required><br>
+                
+                <label for="lastname">Last Name:</label><br>
+                <input type="text" id="lastname" placeholder="Enter Last Name" name="lastname" value="" required><br>
+                
+                <label for="phone">Mobile No:</label><br>
+                <input type="text" id="phone" placeholder="Enter Phone Number" name="phone" value="" required><br>
+                
+                <label for="gender">Gender:</label><br>
+                <input type="radio" id="option1" name="gender" value="Male" checked>
+                <label for="option1" style="color: black;">Male</label><br>
+                
+                <input type="radio" id="option2" name="gender" value="Female">
+                <label for="option2" style="color: black;">Female</label><br>
+                
+                <input type="radio" id="option3" name="gender" value="Others">
+                <label for="option3" style="color: black;">Others</label><br>
+                
+                <label for="branch">Branch:</label><br>
+                <input type="radio" id="branch1" name="branch" value="CSE">
+                <label for="branch1" style="color: black;">CSE</label><br>
+                
+                <input type="radio" id="branch2" name="branch" value="IT">
+                <label for="branch2" style="color: black;">IT</label><br>
+                
+                <input type="radio" id="branch3" name="branch" value="CHEMICAL">
+                <label for="branch3" style="color: black;">CHEMICAL</label><br>
+                
+                <input type="radio" id="branch4" name="branch" value="MECHANICAL">
+                <label for="branch4" style="color: black;">MECHANICAL</label><br>
+                
+                <input type="radio" id="branch5" name="branch" value="ECE">
+                <label for="branch5" style="color: black;">ECE</label><br>
+                
+                <input type="radio" id="branch6" name="branch" value="EEE">
+                <label for="branch6" style="color: black;">EEE</label><br>
+                
+                <input type="radio" id="branch7" name="branch" value="AI-DS">
+                <label for="branch7" style="color: black;">AI-DS</label><br>
+                
+                <input type="radio" id="branch8" name="branch" value="AI-ML">
+                <label for="branch8" style="color: black;">AI-ML</label><br>
+                
+                <input type="radio" id="branch9" name="branch" value="IOT">
+                <label for="branch9" style="color: black;">IOT</label><br>
+                
+                <label for="sem">Semester:</label><br>
+                <input type="number" id="sem" name="sem" placeholder="Enter semester" value=""><br>
+                
+                <label for="domain">Interested Domain:</label><br>
+                <input type="checkbox" id="domain1" name="domain[]" value="Data Science">
+                <label for="domain1" style="color: black;">Data Science</label><br>
+                
+                <input type="checkbox" id="domain2" name="domain[]" value="DSA">
+                <label for="domain2" style="color: black;">DSA</label><br>
+                
+                <input type="checkbox" id="domain3" name="domain[]" value="ML">
+                <label for="domain3" style="color: black;">ML</label><br>
+                
+                <input type="checkbox" id="domain4" name="domain[]" value="AI">
+                <label for="domain4" style="color: black;">AI</label><br>
+                
+                <input type="checkbox" id="domain5" name="domain[]" value="Cyber Security">
+                <label for="domain5" style="color: black;">Cyber Security</label><br>
+                
+                <input type="checkbox" id="domain6" name="domain[]" value="Block Chain">
+                <label for="domain6" style="color: black;">Block Chain</label><br>
+
+                <br>
+                <button type="submit" class="registerbtn">Register</button>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Simple Chessboard</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .chessboard {
+            width: 480px;
+            height: 480px;
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: repeat(8, 1fr);
+            border: 2px solid #333;
+        }
+
+        .square {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 36px;
+        }
+
+        .white {
+            background-color: #f0d9b5;
+        }
+
+        .black {
+            background-color: #b58863;
+        }
+    </style>
+</head>
+<body>
+
+<div class="chessboard">
+    <!-- First Row (White pieces) -->
+    <div class="square white">♖</div>
+    <div class="square black">♘</div>
+    <div class="square white">♗</div>
+    <div class="square black">♕</div>
+    <div class="square white">♔</div>
+    <div class="square black">♗</div>
+    <div class="square white">♘</div>
+    <div class="square black">♖</div>
+
+    <!-- Second Row (White pawns) -->
+    <div class="square black">♙</div>
+    <div class="square white">♙</div>
+    <div class="square black">♙</div>
+    <div class="square white">♙</div>
+    <div class="square black">♙</div>
+    <div class="square white">♙</div>
+    <div class="square black">♙</div>
+    <div class="square white">♙</div>
+
+    <!-- Empty Rows -->
+    <div class="square white"></div>
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+    
+    
+    
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <!-- Seventh Row (Black pawns) -->
+    <div class="square white">♟</div>
+    <div class="square black">♟</div>
+    <div class="square white">♟</div>
+    <div class="square black">♟</div>
+    <div class="square white">♟</div>
+    <div class="square black">♟</div>
+    <div class="square white">♟</div>
+    <div class="square black">♟</div>
+
+    <!-- Eighth Row (Black pieces) -->
+    <div class="square black">♜</div>
+    <div class="square white">♞</div>
+    <div class="square black">♝</div>
+    <div class="square white">♛</div>
+    <div class="square black">♚</div>
+    <div class="square white">♝</div>
+    <div class="square black">♞</div>
+    <div class="square white">♜</div>
+</div>
+
+</body>
+</html>
