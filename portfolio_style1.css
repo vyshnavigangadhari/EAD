@@ -1,0 +1,163 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+nav {
+    background-color: #1b2944; /* Dark background for navbar */
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e8eaf6; /* Light background for hero */
+    color: #1b2944;
+}
+
+#hero h1 {
+    font-size: 48px;
+    margin: 0 0 10px;
+}
+
+#hero p {
+    font-size: 20px;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.portfolio-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center items horizontally */
+    margin-top: 20px;
+}
+
+.project {
+    flex: 1 1 calc(33.333% - 20px); /* Three items per row */
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    box-sizing: border-box;
+    transition: transform 0.3s;
+    max-width: 300px; /* Limiting max width */
+    text-align: left;
+}
+
+.project:hover {
+    transform: translateY(-10px); /* Add hover effect */
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.project h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #1b2944;
+}
+
+.project p {
+    color: #666;
+}
+
+/* About Me Section */
+#about {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 36px;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #555;
+}
+
+/* Skills Section */
+#skills {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 36px;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+}
+
+#skills li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 36px;
+}
+
+#contact p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #1b2944;
+    color: #fff;
+}
